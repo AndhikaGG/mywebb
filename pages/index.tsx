@@ -120,15 +120,15 @@ export default function Home() {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://anaflous.com`} />
-        <link rel="canonical" href={`https://anaflous.com`} />
+        <meta property="og:url" content={`https://ndgg.eu.org`} />
+        <link rel="canonical" href={`https://ndgg.eu.org`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Manu Arora" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@titofabdo" />
+        <meta name="twitter:site" content="@andhikagg_" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
@@ -146,7 +146,7 @@ export default function Home() {
           {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
           {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
           {context.sharedState.finishedLoading ? (
-            <Footer githubUrl={"https://github.com/hktitof/my-website"} hideSocialsInDesktop={true} />
+            <Footer githubUrl={""} hideSocialsInDesktop={true} />
           ) : (
             <></>
           )}
